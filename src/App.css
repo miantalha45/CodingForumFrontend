@@ -1,0 +1,280 @@
+﻿#ques {
+  min-height: 95vh;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.head {
+  height: 100%;
+  width: 100%;
+  background-color: #202b42;
+}
+@media only screen and (max-width: 991px) {
+  .navbar-brand {
+    display: block;
+    margin: 90px 0 0 0;
+    text-align: center;
+    width: 100%;
+    line-height: auto;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .navbar-toggler {
+    background: #1d84b5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: none;
+    line-height: 60px;
+    height: 60px;
+    padding: 0 20px;
+    background: #1d84b5;
+    width: 100%;
+    z-index: 8;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #menu-wrapper {
+    position: relative;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .signup-button {
+    display: none;
+  }
+}
+.page-title {
+  padding: 120px;
+}
+@media only screen and (max-width: 576px) {
+  .page-title {
+    padding: 80px 0;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .main-inner {
+    margin: 20px 0 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .main-inner {
+    padding: 0;
+    background: 0 0;
+    box-shadow: none;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .simpleParallax img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .panel-grid-cell {
+    display: none;
+    padding: 0;
+    margin: 0;
+    /* display: inline-block; */
+  }
+}
+.page-title h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.page-title p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.4;
+  text-transform: none;
+  color: #ffffff;
+}
+.header-search {
+  margin: 2.5rem auto 0.5rem auto;
+  max-width: 768px;
+}
+.header-search input[type="text"],
+input[type="password"] {
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: none;
+  padding: 1.25rem;
+  transition: all 0.2s linear;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+.thread {
+  margin: 2.5rem auto 0.5rem auto;
+  max-width: 768px;
+}
+.thread input[type="text"] {
+  color: black;
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: none;
+  padding: 1.25rem;
+  transition: all 0.2s linear;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+.thread input[type="text"]::placeholder {
+  color: #202b42;
+}
+.head input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+  color: #ffffff;
+}
+.input-group-append {
+  display: flex;
+  margin-left: -1px;
+}
+.head .btn {
+  color: #ffffff;
+  background-color: #1d84b5;
+  border-color: #1d84b5;
+}
+.footer {
+  padding: 25px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.social-icons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: right;
+}
+.social-icons li {
+  display: inline-block;
+  padding: 5px 0;
+  margin: 0 0 0 5px;
+}
+.footer a {
+  color: #bdc3c7;
+}
+.footer li i {
+  display: inline-block;
+  font: normal normal normal 14px / 1 FontAwesome;
+  font-size: 24px;
+  text-rendering: auto;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1439px) {
+  .main-inner {
+    margin: 40px 0 0;
+    padding: 40px;
+  }
+}
+#pg-1,
+#pg-2 {
+  margin-bottom: 40px;
+}
+.panel-row-style {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: #0076ad;
+  position: relative;
+}
+.disputo-stretched {
+  margin-left: -60px !important;
+  margin-right: -60px !important;
+  margin-top: -60px !important;
+}
+@media only screen and (max-width: 1439px) {
+  .disputo-stretched {
+    margin-left: -40px !important;
+    margin-right: -40px !important;
+    margin-top: -40px !important;
+  }
+}
+.simpleParallax {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+.simpleParallax img[data-siteorigin-parallax] {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+#pgc-1-1 {
+  align-self: auto;
+  width: 50%;
+}
+.panel-grid-cell {
+  position: relative;
+  z-index: 1;
+}
+.panel-cell-style {
+  background-color: #1d84b5;
+  padding: 120px 60px 120px 60px;
+  height: 100%;
+}
+h1 {
+  font-weight: 700;
+  line-height: 1.4;
+  text-transform: none;
+  color: #364253;
+}
+p {
+  margin-bottom: 0;
+  margin-top: 1.5rem;
+  line-height: 1.8;
+}
+p .text-primary {
+  color: #364253 !important;
+}
+.lead {
+  font-size: 1.3rem;
+  font-style: italic;
+}
+.ow-button {
+  font-weight: 700;
+}
+.ow-button a {
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 1em;
+}
+.ow-button-hover {
+  box-sizing: border-box;
+  font-size: 1em;
+  padding: 1em 2em;
+  background: #364253;
+  color: #fff !important;
+  border: 1px solid #364253;
+  border-width: 1px 0;
+  border-radius: 0;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+}
+.card {
+  padding: 1rem;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
